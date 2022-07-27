@@ -1,0 +1,21 @@
+@media only screen and (max-width: 576px) {
+    .mgo {
+        padding-left: 0px;
+        padding-bottom: 10px;
+        padding-top: 30px;
+        width: 335px;
+        height: 223px;
+    }
+
+    .formd {
+        display: none;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .forsm {
+        display: none;
+    }
+}
