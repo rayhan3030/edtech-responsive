@@ -7,24 +7,43 @@
         height: 223px;
     }
 
+
+
     .formd {
         display: none;
     }
+
+
+
+
 }
 
 /* tab device  */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px) and (max-width:1024px) {
     .forsm {
         display: none;
     }
+
+
+
 }
 
 /* desktop Device  */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .formd {
         display: none;
     }
+
+
+
+    .nohide {
+        display: flex;
+    }
 }
+
+
+
+
 
 .bgbanner {
     background-color: #F4FAFD;
